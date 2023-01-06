@@ -99,3 +99,46 @@ while (i >= 2) {
   i--;
   console.log(`El valor de i es: ${i}`)
 }
+
+// 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+
+for (let i = 0; i < 5; i++) {
+    console.log("El valor de i es: " + i);
+}
+
+for (let i = 10; i >= 2; i--) {
+    console.log("El valor de i es: " + i);
+}
+
+//  Solucion al 2 de ciclos
+
+let i = 0;
+while (i < 5) {
+  i++;
+  console.log(`El valor de i es: ${i}`)
+}
+let i = 10;
+while (i >= 2) {
+  i--;
+  console.log(`El valor de i es: ${i}`)
+}
+
+// 3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
+
+//Basic Math Quiz
+
+let num = 10;
+let num2 = 10;
+const result = num + num2;
+let questions = {
+  q1: `Cuanto es ${num} + ${num2}`
+}
+functionQuizzer() {
+  let userInput = prompt(questions.q1);
+  if (userInput == result) {
+    alert("Felicitaciones, respondiste correctamente el desafio 😎");
+  } else {
+    alert("lamentablemente, tu respuesta es incorrecta, sigue practicando ❌!");
+  }
+}
+Quizzer();

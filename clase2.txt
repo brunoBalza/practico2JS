@@ -284,3 +284,49 @@ Un ciclo infinito es cuando la condición es infinita, nunca se cumple y, por lo
 ¿Puedo mezclar ciclos y condicionales?
 
 Sí, podemos condicionar un ciclo para que se repita todas las veces hasta que se cumplan una condición que internamente puede tener otra condición para su evaluación.
+
+3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
+
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+
+¿Qué es un array?
+
+Un array es una colecciones de elementos con valores de una sola variable. Se escriben dentro de [ … ], separado por una coma.
+
+¿Qué es un objeto?
+
+Es una colección de datos relacionados con múltiples variables con sus valores.
+
+¿Cuándo es mejor usar objetos o arrays?
+
+Ocupamos objetos cuando el conjunto de elementos es muy grande y de distintos tipos de valores.
+
+¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+
+2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+
+let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+functionreadArray(array){
+	console.log(array[0])
+}
+readArray(myArray);
+
+3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+
+let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+functionreadArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`${i + 1}${array[i]}`)
+  }
+}
+readArray(myArray);
+
+4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+functionreadArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`${i + 1}${array[i]}`)
+  }
+}
+readArray(myArray);
