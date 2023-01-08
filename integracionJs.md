@@ -1,0 +1,1 @@
+el profe crea una clase que se llama "inactive" y lo unico que pone por dentro es un "display: none;" esto es para que esta clase no aparezca sino que nosotros vamos a llamarla cuando aparecer, esto lo hacemos desde js
